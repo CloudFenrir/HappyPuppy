@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="your project directory/PuppiesFlows.java">
+        <classes>
+            <class name="Tests.PuppiesFlows">
+                <methods>
+                    <include name="adoptOnePuppy"/>
+                    <include name="adoptTwoPuppies"/>
+                    <include name="threePuppiesOnCart"/>
+                    <include name="twoPuppiesCorrectAmountOnCart"/>
+                    <include name="fourPuppiesDisplayedPerPage"/>
+                    <include name="twoPuppiesCorrectAmountOnCartWithAdditions"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
